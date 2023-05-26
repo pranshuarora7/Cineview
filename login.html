@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Login</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <link href="css/showYtVideo.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<style>
+	.l1 {
+		height: 700px;
+		width: 100%;
+		clear: both;
+		text-align: center;
+	}
+
+	fieldset {
+		width: 100%px;
+		height: 680px;
+		align-items: center;
+	}
+
+	legend {
+		font-size: 30px;
+	}
+
+	.error {
+		color: white;
+		font-size: 15px;
+	}
+
+	input[type=text] {
+		width: 200px;
+		padding: 10px;
+	}
+
+	input[type=password] {
+		margin: 2px;
+		width: 200px;
+		padding: 10px;
+
+	}
+
+	input[type=number] {
+		margin: 2px;
+		width: 200px;
+		padding: 10px;
+
+	}
+
+	input[type=submit] {
+		width: 20%;
+		font-size: 1.5em;
+		padding: 10px;
+		margin: 5px;
+	}
+
+	input[id=extra] {
+		width: 20%;
+		font-size: 1.5em;
+		padding: 10px;
+	}
+
+	.success {
+		color: green;
+		padding: 25px;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	form fieldset a {
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+	}
+</style>
+
+<body>
+	<div id="shell">
+	  <div id="header">
+		<h1 id="logo"><a href="index.html">CineView</a></h1>
+		<div id="navigation">
+		  <tr>
+			<td colspan="1" height="50" align="left">
+			  <h1 id="login"><a href="login.html">Login</a></h1>
+			</td>
+			<td colspan="1" height="50" align="left">
+			  <h1 id="reg"><a href="registration.html">Registration</a></h1>
+			</td>
+		  </tr>
+		  <br>
+		  <br>
+		  <br>
+		  <ul><!-- unordered list-->
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="https://screenrant.com/movie-news/">NEWS</a></li>
+			<li><a href="inthreater.html">IN THEATERS</a></li>
+			<li><a href="bookticket.html">BOOK TICKET</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		  </ul>
+		</div>
+	<div class="l1">
+		<center>
+			<Center>
+				<div class="container">
+					<div class="row col-md-6 col-md-offset-3">
+						<div class="panel panel-primary">
+							<div class="panel-heading text-center">
+								<h1>Fill Details To Login</h1>
+							</div>
+							<div class="panel-body">
+								<form action="test.php" method="post">
+									<div class="form-group">
+										<label for="firstName">First Name</label>
+										<input type="text" class="form-control" id="firstName" name="firstName" />
+									</div>
+									<div class="form-group">
+										<label for="lastName">Last Name</label>
+										<input type="text" class="form-control" id="lastName" name="lastName" />
+									</div>
+									<div class="form-group">
+										<label for="gender">Gender</label>
+										<div>
+											<label for="male" class="radio-inline"><input type="radio" name="gender"
+													value="m" id="male" />Male</label>
+											<label for="female" class="radio-inline"><input type="radio" name="gender"
+													value="f" id="female" />Female</label>
+											<label for="others" class="radio-inline"><input type="radio" name="gender"
+													value="o" id="others" />Others</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="email">Email</label>
+										<input type="text" class="form-control" id="email" name="email" />
+									</div>
+									<div class="form-group">
+										<label for="password">Password</label>
+										<input type="password" class="form-control" id="password" name="password" />
+									</div>
+									<div class="form-group">
+										<label for="number">Phone Number</label>
+										<input type="number" class="form-control" id="number" name="number" />
+									</div>
+									<input type="submit" class="btn btn-primary" />
+								</form>
+							</div>
+							<div class="panel-footer text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+			</Center>
+		</center>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.showYtVideo.js"></script>
+	<script src="js/login1.js"></script>
+
+	<center>
+		<a href="https://www.facebook.com/cineviewofficial/"><img src="css/social icons/facebook.png" height="30"
+				width="30"></a>
+		<a href="https://twitter.com/cineviewstudios?lang=en"><img src="css/social icons/twitter.png" height="30"
+				width="30"></a>
+		<a href="https://www.youtube.com/channel/UCvKH0gaq9Pn6JVJPBknZA9Q"><img src="css/social icons/youtube.png"
+				height="30" width="30"></a>
+		<a href="https://www.instagram.com/cineview/?hl=en"><img src="css/social icons/instagram.png" height="30"
+				width="30"></a>
+	</center>
+</body>
+
+</html>
